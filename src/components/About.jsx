@@ -49,7 +49,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary -text-[17px] max-w-3xl leading-[30px]">
-        Im a big dick mystic known to hypnotize and create stupid applications you know what im talking about bgdhfjadfajgal
+        Im a hjhjh kkkuui iijlk jjkj known to hypnotize and create stupid applications you know what im talking about bgdhfjadfajgal
 
       </motion.p>
 
