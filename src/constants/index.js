@@ -46,18 +46,22 @@ import {
     {
       title: "BS Computer Science",
       icon: gfu,
+      website: "https://www.georgefox.edu/college-admissions/academics/major/computer-science.html"
     },
     {
       title: "Full Stack Development Certificate",
       icon: uw,
+      website: "https://www.pce.uw.edu/certificates/full-stack-development-with-javascript"
     },
     {
       title: "Business Analytics Certificate",
       icon: gfu,
+      website: "https://www.georgefox.edu/college-admissions/academics/major/business-analytics.html"
     },
     {
       title: "William Penn Honors Program",
       icon: gfu,
+      website: "https://www.georgefox.edu/honors-program/index.html"
     },
   ];
   

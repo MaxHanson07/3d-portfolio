@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = ({ index, title, icon, website }) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -28,8 +28,8 @@ const ServiceCard = ({ index, title, icon }) => {
           className='w-50 h-16 object-contain'
         />
 
-        <h3 onClick={() => window.open('https://www.georgefox.edu/college-admissions/academics/major/computer-science.html', "_blank")}
-        className='text-white text-[20px] font-bold text-center'>
+        <h3 onClick={() => window.open(website, "_blank")}
+        className='text-white text-[20px] font-bold text-center cursor-pointer hover:text-secondary'>
           {title}
         </h3>
       </div>
