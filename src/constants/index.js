@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    gfu,
+    uw
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +44,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "BS Computer Science",
+      icon: gfu,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Full Stack Development Certificate",
+      icon: uw,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Business Analytics Certificate",
+      icon: gfu,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "William Penn Honors Program",
+      icon: gfu,
     },
   ];
   

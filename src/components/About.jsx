@@ -25,10 +25,11 @@ const ServiceCard = ({ index, title, icon }) => {
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-50 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 onClick={() => window.open('https://www.georgefox.edu/college-admissions/academics/major/computer-science.html', "_blank")}
+        className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
       </div>
@@ -44,12 +45,14 @@ const About = () => {
       <p className={styles.sectionSubText}
       >Introduction</p>
       <h2 className={styles.sectionHeadText}>
-        Overview.
+        Education.
       </h2>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary -text-[17px] max-w-3xl leading-[30px]">
-        Im a hjhjh kkkuui iijlk jjkj known to hypnotize and create stupid applications you know what im talking about bgdhfjadfajgal
+        I hold a Computer Science degree from George Fox University, where I
+        graduated Cum Laude and a member of the Honors Program. I have 4 years of experience in
+        developing full stack applications, analytics models, Arduino code, and other fun coding projects.
 
       </motion.p>
 
