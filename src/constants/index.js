@@ -9,7 +9,6 @@ import {
     sql,
     reactjs,
     nodejs,
-    git,
     agile,
     junit,
     docker,
@@ -19,7 +18,6 @@ import {
     shopify,
     cfe,
     perc,
-    threejs,
     gfu,
     uw
   } from "../assets";
