@@ -15,8 +15,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    cfe,
+    perc,
     tripguide,
     threejs,
     gfu,
@@ -200,67 +200,75 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "AI-Powered Usability Test Video Analysis ",
+      tagline: "Reduces usability test video review time by 60%, saving 40 minutes per test review.",
+      bullets: [
+        "Integrated Assembly AI for transcription accuracy, speaker identification, and AI-generated notes.",
+        "In-depth sentiment analysis visualization.",
+        "Established a robust MySQL database system and API for efficient data storage and retrieval."
+      ],
       tags: [
         {
-          name: "react",
+          name: "Django",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Assembly AI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: perc,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "CFE",
+      tagline: "Browse the map and read reviews for local coffee shops.",
+      bullets: [
+        "User-friendly interface with an interactive map.",
+        "Integrated Google OAuth for secure user authentication.",
+        "Utilized MongoDB for efficient data storage and Cloudinary for image hosting.",
+        "Managed Agile sprints and implemented Gitflow for version control."
+      ],
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: cfe,
+      source_code_link: "https://github.com/MaxHanson07/coffee-app-client",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Soil Percolation Rate Measuring Device",
+      tagline: "Automated soil percolation rate measuring device, now in global use for Engineering Ministries International.",
+      bullets: [
+        "Engineered C code and configured Arduino for accurate percolation rate measurements (98% accuracy).",
+        "Designed and implemented a real-time data visualization interface with a line chart."
+      ],
       tags: [
         {
-          name: "nextjs",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Arduino",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: perc,
+      source_code_link: "https://github.com/MaxHanson07/soil-percolation",
     },
   ];
   
