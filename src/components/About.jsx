@@ -50,9 +50,9 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary -text-[17px] max-w-3xl leading-[30px]">
-        I hold a Computer Science degree from George Fox University, where I
-        graduated Cum Laude and as a member of the Honors Program. I have 4 years of experience in
-        developing full stack applications, analytics models, Arduino code, and other fun coding projects.
+      I earned my Bachelor of Science in Computer Science from George Fox University, graduating Cum Laude while also being a
+      member of the Honors Program. Over the past four years, I've had the opportunity to work on various exciting coding projects,
+      including full-stack applications, analytics models, and Arduino projects.
 
       </motion.p>
 

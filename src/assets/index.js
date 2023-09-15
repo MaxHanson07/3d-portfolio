@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import github from "./github.png";
+import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import gfu from "./gfu.svg";
@@ -33,6 +34,7 @@ export {
   gfu,
   uw,
   github,
+  linkedin,
   menu,
   close,
   python,
