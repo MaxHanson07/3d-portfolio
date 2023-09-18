@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { github } from "../assets";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 const Hero = () => {
@@ -27,7 +26,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#9bbfdf]">Max</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-[#dce8f3]`}>
-            I develop web applications, <br></br> IOT Projects, and 3D visuals. <br className="sm:block hidden" />
+            Computer Scientist. <br></br> Software Developer. <br className="sm:block hidden" />
           </p>
         </div>
       </div>
