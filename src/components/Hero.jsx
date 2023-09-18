@@ -15,24 +15,19 @@ const Hero = () => {
       </div>
       <div className="absolute top-20 left-0 w-full h-4 bg-opacity-15 bg-gradient-to-b from-[#050d0f] to-transparent"></div>
 
-      {/* <div className="absolute top-20 bg-[#344e4f]"></div> */}
-
-      {/* <div className="top-1/2 h-16 opacity-50 bg-[#050d0f] z-50"></div> */}
-
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#cae4f9]" />
+          <div className="w-5 h-5 rounded-full bg-[#c1d8ec]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#cae4f9]">Max</span>
+          <h1 className={`${styles.heroHeadText} text-[#F5F5F5]`}>
+            Hi, I'm <span className="text-[#9bbfdf]">Max</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I Develop Software. <br className="sm:block hidden" />
-            Check out my projects below.
+          <p className={`${styles.heroSubText} mt-2 text-[#dce8f3]`}>
+            I develop web applications, <br></br> IOT Projects, and 3D visuals. <br className="sm:block hidden" />
           </p>
         </div>
       </div>

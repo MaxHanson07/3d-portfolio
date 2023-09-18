@@ -19,6 +19,7 @@ import {
     cfe,
     cfe2,
     perc,
+    usability,
     gfu,
     uw
   } from "../assets";
@@ -151,9 +152,10 @@ import {
     {
       name: "AI-Powered Usability Test Video Analysis ",
       tagline: "Reduces usability test video review time by 60%, saving 40 minutes per test review.",
+      context: "Image is a prototype displaying AI-generated notes and sentiment analysis based off audio file. Polished version contains charts and sleeker video player, but I am unable to show it at this time.",
       bullets: [
         "Integrated Assembly AI for transcription accuracy, speaker identification, and AI-generated notes.",
-        "In-depth sentiment analysis visualization.",
+        "In-depth sentiment analysis visualization with Pandas and Matplotlib.",
         "Established a robust MySQL database system and API for efficient data storage and retrieval."
       ],
       tags: [
@@ -170,12 +172,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: perc,
+      image: usability,
       source_code_link: "https://github.com/",
     },
     {
       name: "CFE",
       tagline: "Browse the map and read reviews for local coffee shops.",
+      context: "Made in a 7 day UW Hackathon. Application is no longer deployed on Heroku.",
       bullets: [
         "User-friendly interface with an interactive map.",
         "Integrated Google OAuth for secure user authentication.",
@@ -201,7 +204,8 @@ import {
     },
     {
       name: "Soil Percolation Rate Measuring Device",
-      tagline: "Automated soil percolation rate measuring device, now in global use for Engineering Ministries International.",
+      tagline: "Automated soil percolation (erosion due to rain water) rate measuring device",
+      context: "Worked with 3 mechanical engineer students, designing this fully functioning prototype for Engineering Ministries International, who now uses replicas around the globe.",
       bullets: [
         "Engineered C code and configured Arduino for accurate percolation rate measurements (98% accuracy).",
         "Designed and implemented a real-time data visualization interface with a line chart."

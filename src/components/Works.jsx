@@ -12,6 +12,7 @@ const ProjectCard = ({
   index,
   name,
   tagline,
+  context,
   bullets,
   tags,
   image,
@@ -29,9 +30,10 @@ const ProjectCard = ({
             }}
             className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full md:mr-4"
           >
-            <div className="mt-7">
-              <h3 className="text-white font-bold text-[24px]">{name}</h3>
-              <h5>{tagline}</h5>
+            <div className="mt-8">
+              <h3 className="text-[#e3e3e3] text-[24px] font-bold pb-5">{name}</h3>
+              <h4 className="text-white text-[16px] font-bold">{tagline}</h4>
+              <p className="pt-2 italic text-[#008080] font-bold">{context}</p>
             </div>
 
             <div>
@@ -53,7 +55,7 @@ const ProjectCard = ({
                   #{tag.name}
                 </p>
               ))}
-              <div className="absolute inset-0 flex  justify-end m-2 card-img_hover">
+              <div className="absolute inset-0 flex justify-end m-2 card-img_hover">
                 <div
                   onClick={() => window.open(source_code_link, "_blank")}
                   className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -69,11 +71,11 @@ const ProjectCard = ({
           </Tilt>
         </div>
 
-        <div className="w-full md:w-auto mb-5 md:mt-0 flex items-center justify-center bg-tertiary rounded-2xl">
+        <div className="w-full sm:mt-5 md:w-auto mb-5 md:mt-0 flex items-center justify-center bg-tertiary rounded-2xl">
           <img
             src={image}
             alt="project_image"
-            className="w-500 h-500 object-contain rounded-2xl"
+            className="w-200 h-200 object-contain rounded-2xl"
           />
         </div>
       </div>

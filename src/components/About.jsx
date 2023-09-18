@@ -20,7 +20,7 @@ const ServiceCard = ({ index, title, icon, website }) => {
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-[#050d0f] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -49,7 +49,7 @@ const About = () => {
       </h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary -text-[17px] max-w-3xl leading-[30px]">
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary -text-[17px] max-w-3xl text-[16px] leading-[30px]">
       I earned my Bachelor of Science in Computer Science from George Fox University, graduating Cum Laude while also being a
       member of the Honors Program. Over the past four years, I've had the opportunity to work on various exciting coding projects,
       including full-stack applications, analytics models, and Arduino projects.

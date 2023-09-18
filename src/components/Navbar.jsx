@@ -30,7 +30,7 @@ const Navbar = () => {
               alt="logo"
               className="w-9 h-9 object-contain mr-3"
             />
-            <p className="text-white text-[18px] font-bold cursor-pointer mr-10">
+            <p className="text-[#F5F5F5] text-[18px] font-bold cursor-pointer mr-10">
               Max Hanson
             </p>
           </div>
@@ -43,19 +43,19 @@ const Navbar = () => {
             <img
               src={github}
               alt="git hub"
-              className="w-1/2 h-1/2 object-contain"
+              className="w-3/4 h-3/4 object-contain"
             />
           </div>
           <div
             onClick={() =>
               window.open("https://www.linkedin.com/in/maxwellhanson07/", "_blank")
             }
-            className="bg-blue-700 w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+            className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img
               src={linkedin}
               alt="linked in"
-              className="w-1/2 h-1/2 object-contain"
+              className="w-3/4 h-3/4 object-contain"
             />
           </div>
         </Link>
