@@ -65,11 +65,11 @@ const ProjectCard = ({
           </Tilt>
         </div>
 
-        <div className="w-full md:w-auto mb-5 md:mt-0 flex items-center justify-center">
+        <div className="w-full md:w-auto mb-5 md:mt-0 flex items-center justify-center bg-tertiary rounded-2xl">
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-contain rounded-2xl"
+            className="w-500 h-500 object-contain rounded-2xl"
           />
         </div>
       </div>

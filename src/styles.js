@@ -13,6 +13,10 @@ const styles = {
     sectionSubText:
       "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 
+    hscreen:
+      "background: linear-gradient(to bottom, #152324 0%, #152324 25%, #2b4546 25%, #2b4546 75%, #152324 75%, #152324 100%)"
+      
+
   };
   
   export { styles };

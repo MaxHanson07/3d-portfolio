@@ -27,6 +27,7 @@ import tesla from "./company/tesla.png";
 
 
 import cfe from "./cfe.gif";
+import cfe2 from "./cfe.png";
 import perc from "./perc.jpg";
 
 export {
@@ -55,5 +56,6 @@ export {
   starbucks,
   tesla,
   cfe,
+  cfe2,
   perc,
 };
