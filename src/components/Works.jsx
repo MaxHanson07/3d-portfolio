@@ -29,15 +29,19 @@ const ProjectCard = ({
             }}
             className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full md:mr-4"
           >
-            <div className="mt-5">
+            <div className="mt-7">
               <h3 className="text-white font-bold text-[24px]">{name}</h3>
               <h5>{tagline}</h5>
             </div>
 
             <div>
-              {bullets && bullets.map((bullet, index) => (
-                <p key={index}>{bullet}</p>
-              ))}
+              {bullets && (
+                <ul className="list-disc ml-5 mt-2">
+                  {bullets.map((bullet, index) => (
+                    <li key={index}>{bullet}</li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             <div className="mt-4 flex flex-wrap gap-2">
@@ -49,7 +53,7 @@ const ProjectCard = ({
                   #{tag.name}
                 </p>
               ))}
-              <div className="absolute inset-0 flex pt-2 justify-end m-3 card-img_hover">
+              <div className="absolute inset-0 flex  justify-end m-2 card-img_hover">
                 <div
                   onClick={() => window.open(source_code_link, "_blank")}
                   className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
