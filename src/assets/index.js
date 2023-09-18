@@ -20,12 +20,6 @@ import reactjs from "./tech/reactjs.png";
 import sql from "./tech/sql.png";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-
 import cfe from "./cfe.gif";
 import cfe2 from "./cfe.png";
 import perc from "./perc.jpg";
@@ -52,10 +46,6 @@ export {
   nodejs,
   reactjs,
   typescript,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   cfe,
   cfe2,
   perc,
