@@ -6,24 +6,24 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto ">
-      <div className="absolute left-1/4 right-1/2 bg-gradient-to-r from-[#050d0f] to-[#344e4f] bottom-20 top-20 h-5/6">
+      {/* <div className="absolute left-1/4 right-1/2 bg-gradient-to-r from-[#050d0f] to-[#344e4f] bottom-20 top-20 h-5/6">
         <div className="absolute bottom-0 left-0 w-full h-40 bg-opacity-85 bg-gradient-to-t from-[#050d0f] to-transparent"></div>
       </div>
       <div className="absolute left-1/2 right-1/4 bg-gradient-to-r from-[#344e4f] to-[#050d0f] top-20 h-5/6">
         <div className="absolute bottom-0 left-0 w-full h-40 bg-opacity-85 bg-gradient-to-t from-[#050d0f] to-transparent"></div>
       </div>
-      <div className="absolute top-20 left-0 w-full h-4 bg-opacity-15 bg-gradient-to-b from-[#050d0f] to-transparent"></div>
+      <div className="absolute top-20 left-0 w-full h-4 bg-opacity-15 bg-gradient-to-b from-[#050d0f] to-transparent"></div> */}
 
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#c1d8ec]" />
+          <div className="w-5 h-5 rounded-full bg-[#56ccf2]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-[#F5F5F5]`}>
-            Hi, I'm <span className="text-[#9bbfdf]">Max</span>
+            Hi, I'm <span className="blue-text-gradient">Max</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-[#dce8f3]`}>
             Computer Scientist. <br></br> Software Developer. <br className="sm:block hidden" />

@@ -125,7 +125,7 @@ import {
     {
       name: "AI-Powered Usability Test Video Analysis ",
       tagline: "Reduces usability test video review time by 60%, saving 40 minutes per test review.",
-      context: "Image is a prototype displaying AI-generated notes and sentiment analysis based off audio file. Polished version contains charts and sleeker video player, but I am unable to show it at this time.",
+      context: "While working with Daimler Trucks of North America, our goal was to streamline usability test reviews and reduce man-hours. Existing software solutions were expensive and didn't meet our needs. To address this, I created a cost-effective alternative using a budget-friendly API",
       bullets: [
         "Integrated Assembly AI for transcription accuracy, speaker identification, and AI-generated notes.",
         "In-depth sentiment analysis visualization with Pandas and Matplotlib.",

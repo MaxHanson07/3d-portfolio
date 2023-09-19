@@ -19,34 +19,30 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="flex md:flex-row flex-col w-full">
-        <div className="sm:mb-5">
-          <Tilt
-            options={{
-              max: 45,
-              scale: 1,
-              speed: 450,
-            }}
-            className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full md:mr-4"
-          >
-            <div className="mt-8">
-              <h3 className="text-[#e3e3e3] text-[24px] font-bold pb-5">{name}</h3>
-              <h4 className="text-white text-[16px] font-bold">{tagline}</h4>
-              <p className="pt-2 italic text-[#008080] font-bold">{context}</p>
-            </div>
+<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+  <div className="flex md:flex-row flex-col w-full">
+    <div className="sm:mb-5 relative">
+      <div className=" p-5 rounded-2xl sm:w-[480px] bg-[#8989890f] w-full md:mr-4">
+        <div className="mt-8">
+          <h3 className="text-[#ffffff] text-[20px] pb-5">{name}</h3>
+          <em className="text-white text-[28px] font-bold pb-5 leading-[30px]">
+            {tagline}
+          </em>
+          <p className="text-[#ffffff] pt-5 text-[18px] leading-[30px]">
+            {context}
+          </p>
+        </div>
 
-            <div>
-              {bullets && (
-                <ul className="list-disc ml-5 mt-2">
-                  {bullets.map((bullet, index) => (
-                    <li key={index}>{bullet}</li>
-                  ))}
-                </ul>
-              )}
-            </div>
-
-            <div className="mt-4 flex flex-wrap gap-2">
+        <div>
+          {bullets && (
+            <ul className="list-disc ml-5 mt-2 text-white font-bold text-[18px] leading-[30px]">
+              {bullets.map((bullet, index) => (
+                <li key={index}>{bullet}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+        <div className="mt-4 flex flex-wrap gap-2">
               {tags.map((tag) => (
                 <p
                   key={`${name}-${tag.name}`}
@@ -54,32 +50,32 @@ const ProjectCard = ({
                 >
                   #{tag.name}
                 </p>
-              ))}
-              <div className="absolute inset-0 flex justify-end m-2 card-img_hover">
-                <div
-                  onClick={() => window.open(source_code_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                >
-                  <img
-                    src={github}
-                    alt="source code"
-                    className="w-1/2 h-1/2 object-contain"
-                  />
-                </div>
-              </div>
-            </div>
-          </Tilt>
-        </div>
-
-        <div className="w-full sm:mt-5 md:w-auto mb-5 md:mt-0 flex items-center justify-center bg-tertiary rounded-2xl">
+              ))} </div>
+      </div>
+      <div className="absolute top-2 right-4 m-2 card-img_hover">
+        <div
+          onClick={() => window.open(source_code_link, "_blank")}
+          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+        >
           <img
-            src={image}
-            alt="project_image"
-            className="w-200 h-200 object-contain rounded-2xl"
+            src={github}
+            alt="source code"
+            className="w-1/2 h-1/2 object-contain"
           />
         </div>
       </div>
-    </motion.div>
+    </div>
+
+    <div className="w-full h-auto sm:mt-5 md:w-auto mb-5 md:mt-0 flex items-center justify-center rounded-2xl">
+      <img
+        src={image}
+        alt="project_image"
+        className="w-full h-auto object-contain rounded-2xl"
+      />
+    </div>
+  </div>
+</motion.div>
+
   );
 };
 
