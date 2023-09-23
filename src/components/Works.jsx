@@ -21,24 +21,23 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div className="mt-8">
-      <div className="flex items-center space-x-2">
-  <h3 className="text-white text-[28px] font-bold pb-5 pr-5 leading-[30px]">
-    {name}
-  </h3>
-  <div className="card-img_hover mb-5">
-    <div
-      onClick={() => window.open(source_code_link, "_blank")}
-      className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-    >
-      <img
-        src={github}
-        alt="source code"
-        className="w-full h-full object-contain"
-      />
-    </div>
-  </div>
-</div>
-
+        <div className="flex items-center space-x-2">
+          <h3 className="text-white text-[28px] font-bold pb-5 pr-5 leading-[30px]">
+            {name}
+          </h3>
+          <div className="card-img_hover mb-5">
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
 
         <p className="text-[#ffffff] pt-5 pb-7 text-[18px] leading-[30px]">
           {context}
@@ -47,12 +46,13 @@ const ProjectCard = ({
           {tagline}
         </em>
       </div>
+      
       <div className="flex pt-10 md:flex-row flex-col w-full">
         <div className="sm:mb-3 relative">
           <div className=" p-5 rounded-2xl sm:w-[480px] w-full md:mr-4">
             <div>
               {bullets && (
-                <ul className="list-disc ml-5 mt-2 text-white font-bold text-[18px] leading-[30px]">
+                <ul className="list-disc ml-5 mt-2 text-white text-[18px] leading-[30px]">
                   {bullets.map((bullet, index) => (
                     <li key={index}>{bullet}</li>
                   ))}
@@ -70,7 +70,6 @@ const ProjectCard = ({
               ))}{" "}
             </div>
           </div>
-
         </div>
 
         <div className="w-full h-auto sm:mt-5 md:w-auto mb-5 md:mt-0 flex items-center justify-center rounded-2xl">

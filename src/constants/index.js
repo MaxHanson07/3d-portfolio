@@ -125,10 +125,11 @@ import {
     {
       name: "AI-Powered Usability Test Video Analysis ",
       tagline: "Reduces usability test video review time by 60%, saving 40 minutes per test review.",
-      context: "While working with Daimler Trucks of North America, our goal was to streamline usability test reviews and reduce man-hours. Existing software solutions were expensive and didn't meet our needs. To address this, I created a cost-effective alternative using a budget-friendly API",
+      context: "While working with Daimler Trucks of North America, our goal was to streamline usability test reviews and reduce man-hours. Existing software solutions were expensive and didn't meet our needs. To address this, I created a cost-effective alternative using a budget-friendly API.",
       bullets: [
         "Integrated Assembly AI for transcription accuracy, speaker identification, and AI-generated notes.",
-        "In-depth sentiment analysis visualization with Pandas and Matplotlib.",
+        "Full CRUD functionality for notes and transcript.",
+        "Can add more video angles to player with the option to synchronize them to watch concurrently.",
         "Established a robust MySQL database system and API for efficient data storage and retrieval."
       ],
       tags: [
