@@ -24,7 +24,6 @@ const Navbar = () => {
         >
           <div className="flex items-center">
             {" "}
-            {/* Add a div to contain name and GitHub icon */}
             <img
               src={logo}
               alt="logo"
