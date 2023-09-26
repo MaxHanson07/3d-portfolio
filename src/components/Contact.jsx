@@ -3,13 +3,8 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
-// r4bqTk5jXPL6nolKl
-// service_tzd7o47
-// template_la5pqd9
 
 const Contact = () => {
   const formRef = useRef();
