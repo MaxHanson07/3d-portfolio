@@ -39,7 +39,7 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <p className="text-[#ffffff] pt-5 pb-7 text-[18px] leading-[30px]">
+        <p className="text-[#ffffff] pt-1 pb-10 text-[18px] leading-[30px]">
           {context}
         </p>
         <em className="text-white text-[28px] font-bold pb-5 leading-[30px]">
