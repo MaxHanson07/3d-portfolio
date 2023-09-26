@@ -49,7 +49,7 @@ const ProjectCard = ({
       
       <div className="flex pt-10 md:flex-row flex-col w-full">
         <div className="sm:mb-3 relative">
-          <div className=" p-5 rounded-2xl sm:w-[480px] w-full md:mr-4">
+          <div className=" p-5 rounded-2xl w-full md:w-[400px] md:mr-4">
             <div>
               {bullets && (
                 <ul className="list-disc ml-5 mt-2 text-white text-[18px] leading-[30px]">
