@@ -147,7 +147,7 @@ import {
         },
       ],
       image: usability,
-      source_code_link: "https://github.com/MaxHanson07",
+      source_code_link: "https://github.com/MaxHanson07/usability-lab",
     },
     {
       name: "CFE",
